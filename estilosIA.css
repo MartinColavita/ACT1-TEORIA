@@ -4,6 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+
+
+    /* enunciado 4 - centrar el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
 }
 
 header {
