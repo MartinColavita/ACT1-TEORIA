@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="estilosIA.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="acerca.html">Acerca de</a></li>
+      <li>
+        <select onchange="location = this.value;">
+          <option>--Categorías--</option>
+          <option value="caricaturas.html">Caricaturas</option>  
+          <option value="paisajes.html">Paisajes</option>
+          <option value="anime.html">Anime</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h1>Contacto</h1>
+    <p>Si deseas ponerte en contacto con nosotros, por favor utiliza el formulario a continuación:</p>
+    
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2023 Sitio de Dibujos - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>

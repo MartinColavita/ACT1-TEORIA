@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sitio de Dibujos</title>
+  <link rel="stylesheet" type="text/css" href="estilosIA.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="acerca.html">Acerca de</a></li>
+      <li>
+        <select onchange="location = this.value;">
+          <option>--Categorías--</option>
+          <option value="caricaturas.html">Caricaturas</option>  
+          <option value="paisajes.html">Paisajes</option>
+          <option value="anime.html">Anime</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="paisajes">
+        <h2>Paisajes</h2>
+        <div class="galeria">
+          <img src="imagenes/paisajes/paisaje1.jpg" alt="paisaje1">
+          <img src="imagenes/paisajes/paisaje2.jpg" alt="paisaje2">
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2023 Sitio de Dibujos - Todos los derechos reservados
+  </footer>
+
+</html>

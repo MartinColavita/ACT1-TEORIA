@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #ff0000; /* Cambia el color al pasar el ratón por encima */
+}
+
+nav li select {
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las imágenes */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.galeria img {
+    border: 2px solid #333;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

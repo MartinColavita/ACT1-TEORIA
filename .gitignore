@@ -1,0 +1,6 @@
+# Ignorar archivos generados por Visual Studio Code
+.vscode/
+
+# Ignorar archivos de configuración de usuario de Visual Studio Code
+.vscode/settings.json
+.vscode/tasks.json
